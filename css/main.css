@@ -21,6 +21,10 @@ li a{
   color: inherit;
 }
 
+li a:hover{
+  color: #db964a;
+}
+
 ul li{
   list-style: none;
   display: inline;
@@ -37,11 +41,47 @@ header{
 
 nav{
   position: absolute;
-  right: 5%;
-  top: 5%;
+  right: 5px;
+  top: 50%;
   transform:translateY(-50%);
 }
 
 .box-header{
   display: inline-block;
+}
+
+.logo-square{
+  width: 100px;
+}
+
+section{
+  text-align: center;
+
+}
+
+div{
+  display: inline-block;
+  width: 33%;
+  padding: 2px;
+  box-sizing: border-box;
+
+}
+
+[class^="icon-"], [class*="icon"]{
+  font-size: 30px;
+}
+
+footer{
+  background-color: #303030;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn{
+
+  background-color: #db664a;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
 }
